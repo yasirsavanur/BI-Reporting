@@ -5,7 +5,7 @@
 #### The dataset we will be using in this assignment comes from the following source: https://stackoverflow.blog/2019/04/09/the-2019-stack-overflow-developer-survey-results-are-in/ 
 NOTE: However, We will be using a modified subset of that dataset in this project.
 
-### The dashboard shall display the following:
+### The dashboard displays the following:
 
 ## A Current Technology Usage tab containing:
 
