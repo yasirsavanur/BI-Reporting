@@ -1,38 +1,72 @@
-# Stack Overflow Developer Survey 2019 - Technology Trends and Analysis
+# Stack Overflow Developer Survey 2019 – Technology Trends & Analysis
 
-### This project aims to understand the Technology Trends according to the Stack Overflow Developer Survey 2019 and analyse the data by creating intuitive, interactive dashboard with the help of IBM Cognos Dashboard Embedded (CDE).
+This project analyses the **2019 Stack Overflow Developer Survey** to understand technology trends in programming languages, databases, platforms, and developer demographics. The goal was to build an end‑to‑end pipeline: collect data, clean it, analyze it, and present the results in an interactive dashboard using **IBM Cognos Dashboard Embedded (CDE)**.
 
-#### The dataset we will be using in this assignment comes from the following source: https://stackoverflow.blog/2019/04/09/the-2019-stack-overflow-developer-survey-results-are-in/ 
-NOTE: However, We will be using a modified subset of that dataset in this project.
+The dataset comes from the official survey results, but for this project I worked with a modified subset to keep the scope manageable.
 
-### The dashboard displays the following:
+---
 
-## A Current Technology Usage tab containing:
+## Dashboard Overview
 
-• Top 10 Languages
+The dashboard is divided into three main sections:
 
-• Top 10 Databases
+### Current Technology Usage
+- Top 10 programming languages  
+- Top 10 databases  
+- Platforms developers work with  
+- Top 10 web frameworks  
 
-• Platforms
+### Future Technology Trends
+- Top 10 languages developers want to learn next year  
+- Top 10 databases developers want to learn next year  
+- Desired platforms for the next year  
+- Top 10 web frameworks developers want to learn next year  
 
-• Top 10 WebFrames
+### Demographics
+- Respondents by gender  
+- Respondents by country  
+- Respondents by age  
+- Education level split by gender  
 
-## A Future Technology Trends tab containing:
+---
 
-• Top 10 Languages desired for the next year
+## End‑to‑End Workflow
 
-• Top 10 Databases desired for the next year
+This project covers the full data science workflow:
 
-• Desired platforms for the next year
+1. **Collecting_job_data_using_APIs.ipynb**  
+   Pulled job data using APIs to connect survey results with real‑world demand. Automated collection ensured consistency and avoided manual downloads.
 
-• Top 10 WebFrames desired for the next year
+2. **Web_Scraping.ipynb**  
+   Scraped additional information from websites to enrich the dataset. This added industry context beyond the survey.
 
-## A Demographics tab containing:
+3. **Explore_Dataset.ipynb**  
+   Performed an initial exploration of the dataset. Checked column names, variable meanings, missing values, and inconsistencies.
 
-• Respondent classified by gender
+4. **Data_Wrangling.ipynb**  
+   Cleaned and reshaped the dataset. Tasks included handling missing values, normalizing text entries, and restructuring tables for easier analysis.
 
-• Respondent count for countries
+5. **Exploratory_Data_Analysis.ipynb**  
+   Investigated distributions, correlations, and demographic splits. This step helped identify emerging trends and patterns.
 
-• Respondent count by age
+6. **Data_Visualisation.ipynb**  
+   Created charts and plots to make findings easier to interpret. Visualisations included bar charts, pie charts, and trend lines.
 
-• Respondent count by gender and classified by education level
+7. **Technology Trends & Analysis Presentation.pdf / .pptx**  
+   Summarised the key findings and implications in a presentation format. Designed for HR and IT heads to understand skill requirements and plan for the future.
+
+---
+
+## Key Takeaways
+
+- JavaScript, HTML/CSS, and SQL were the top languages in 2019, but Python and TypeScript were quickly rising.  
+- MySQL was the most popular database, while MongoDB, Redis, and Elasticsearch were gaining traction.  
+- Platforms like Docker and AWS were becoming essential for modern development.  
+- There was a noticeable gender gap and uneven distribution of tech adoption across countries.  
+- Companies need to adapt quickly to changing technology trends and address demographic and geographic gaps.
+
+---
+
+## Purpose
+
+The main goal was to practice the full data science workflow: collecting data, cleaning it, analysing it, and presenting it in a professional way. The dashboards make the results interactive and easier to explore, providing a snapshot of how fast technology changes and what skills companies might be looking for in the near future.
