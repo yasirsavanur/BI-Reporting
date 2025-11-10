@@ -8,7 +8,7 @@ The [dataset](https://stackoverflow.blog/2019/04/09/the-2019-stack-overflow-deve
 
 ## Dashboard Overview
 
-The dashboard is divided into three main sections:
+The [dashboard](Technology%20Trends%20%26%20Analysis%20Presentation.pdf) is divided into three main sections:
 
 ### Current Technology Usage
 - Top 10 programming languages  
