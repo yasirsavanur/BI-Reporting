@@ -1,6 +1,6 @@
 # Stack Overflow Developer Survey 2019 – Technology Trends & Analysis
 
-This project analyses the **2019 Stack Overflow Developer Survey** to understand technology trends in programming languages, databases, platforms, and developer demographics. The goal was to build an end‑to‑end pipeline: collect data, clean it, analyse it, and present the results in an interactive dashboard using **IBM Cognos Dashboard Embedded (CDE)**. The same dashboard was created using [Tableau] (https://public.tableau.com/app/profile/yasir.savanur/viz/StackOverflowDeveloperSurvey2019-Visualization_16880126654310/FutureTechTrends) as well.
+This project analyses the **2019 Stack Overflow Developer Survey** to understand technology trends in programming languages, databases, platforms, and developer demographics. The goal was to build an end‑to‑end pipeline: collect data, clean it, analyse it, and present the results in an interactive dashboard using **IBM Cognos Dashboard Embedded (CDE)**. The same dashboard was created using [Tableau](https://public.tableau.com/app/profile/yasir.savanur/viz/StackOverflowDeveloperSurvey2019-Visualization_16880126654310/FutureTechTrends) as well.
 
 The dataset comes from the official survey results, but for this project I worked with a modified subset to keep the scope manageable.
 
